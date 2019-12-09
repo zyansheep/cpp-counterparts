@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle cpp-counterparts",
+        "command": "cpp-counterparts:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "cpp-counterparts",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "cpp-counterparts:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
